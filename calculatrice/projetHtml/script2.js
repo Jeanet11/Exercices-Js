@@ -1,29 +1,37 @@
+/*var array = [];
 
 $("button").click(function(){
 	var input = ($(this).attr('id').charAt(4));
-	console.log(input);
+	
 	$("#result2").text(input);
-	var tab = [];
-	$('')
-	tab.push(input),
-	;
+	
+	
+	array.push($(this).val());
+
 })
+*/
+var array = [3, "*", 9];
+if (array[1] === "+") {
+	var result = parseInt(array[0]) + parseInt(array[2]);
+	console.log(result);
+}
 
+if (array[1] === "-") {
+	var result = parseInt(array[0]) - parseInt(array[2]);
+	console.log(result);
+}
 
+if (array[1] === "*") {
+	var result = parseInt(array[0]) * parseInt(array[2]);
+	console.log(result);
+}
 
+if (array[1] === "/"  && array[2]!=0) {
+	var result = parseInt(array[0]) / parseInt(array[2]);
+	console.log(result);
 
+}
 /*
-
-	var a = $("#").val();
-	
-
-	var b = $("#input2").val();
-
-
-	var ope = $("#selectOperation").val();
-	
-
-
 function addition(arg1, arg2) {
 	return arg1 + arg2;
 }
@@ -66,6 +74,5 @@ $("#result").text(result);
 
 
 })
-
 
 */
