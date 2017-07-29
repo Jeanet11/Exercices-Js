@@ -1,4 +1,9 @@
-/*var array = [];
+var chiffres = {
+	;
+
+}
+
+
 
 $("button").click(function(){
 	var input = ($(this).attr('id').charAt(4));
